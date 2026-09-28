@@ -173,6 +173,9 @@
   }
 }
 @layer utilities {
+  .m-2 {
+    margin: calc(var(--spacing) * 2);
+  }
   .flex {
     display: flex;
   }
